@@ -11,8 +11,8 @@ ldr r1, =val1 // r1 = mem add of val1
 ldr r2, =val2 // r2 = mem add of val2
 ldr r3, =result // r3 = mem add of result
 
-ldr r3, [r1] // r3 = 10
-ldr r4, [r2] // r4 = 20
+ldr r4, [r1] // r4 = 10
+ldr r5, [r2] // r5 = 20
 
 add r6, r4, r5 // r6 = r4+ r5
 
